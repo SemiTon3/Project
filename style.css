@@ -69,3 +69,15 @@
     left: 10px;
     bottom: 27px;
   }
+  .cartcircle span{
+    font-size: 10px;
+    color: white;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    
+  }
+  .headerrightline{
+    width: 1px;
+    height: 35px;
+    background-color: rgba(0, 0, 0, 0.179);
+  }
