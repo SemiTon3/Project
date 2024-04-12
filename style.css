@@ -106,3 +106,19 @@
     z-index: -1;
     transition: 0.3s;
   }
+  .headerright button:hover::before{
+    right: 0;
+    border-radius: 5px 5px 0 0;
+    transition: 0.3s;
+  }
+  .headerright button::after{
+    content: "";
+    background-color: #0e0e0e;
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    left: 182px;
+    right: 0;
+    z-index: -1;
+    transition: 0.3s;
+  }
