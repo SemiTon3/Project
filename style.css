@@ -141,3 +141,24 @@
     justify-content: center;
     align-items: center;
   }
+  .shapeone{
+    position: absolute;
+    top: -280px;
+    left: -530px;
+  }
+  .shapetwo{
+    position: absolute;
+    top: -220px;
+    left: -200px;
+  }
+  .shapethree{
+    position: absolute;
+    bottom: -170px;
+    right: -40px;
+    transform: rotate(180deg);
+  }
+  .shapefour{
+    position: absolute;
+    bottom: -500px;
+    right: -440px;
+  }
