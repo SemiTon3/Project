@@ -162,3 +162,98 @@
     bottom: -500px;
     right: -440px;
   }
+  .inputHolder h1{
+    font-family: var(--barlow);
+    font-size: 60px;
+    color: white;
+  }
+  .inputHolder h3{
+    font-family: var(--jost);
+    font-size: 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  .teamSection{
+    display: flex;
+    width: 100%%;
+    height: 130vh;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: ;
+  }
+  
+  .teamidentity{
+  display: grid;
+  width: 85%;
+  height: 100vh;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+  margin-left: 0px;
+  margin-top: -50px;
+  margin-bottom: 60px;
+  }
+  
+  .teamBoxone{
+    width: 100%;
+    height: calc(80vh - 50px);
+    /* background-color: blue; */
+    position: relative;
+    background-image: url(team-1.jpeg);
+    background-size:320px;
+    background-repeat: no-repeat;
+    background-position: 40% 10%;
+    overflow: hidden;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+  }
+  .teamBoxone .teamcontentone{
+    position: absolute;
+    margin-left: 60px;
+    margin-bottom: -170px;
+    z-index: 5;
+    font-size: 20px;
+    font-family: var(--barlow);
+  }
+  .teamcontentone h3{
+    color: white;
+  }
+  .teamcontentone h6{
+    color: white;
+    z-index: 5;
+  }
+  .teamBoxone .teamcontentone .name::before{
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 20px;
+    top: 50%;
+    left: -30px;
+    transform: translateY(-50%);
+    background: linear-gradient(-180deg, #43baff 0%, #7141b1 100%);
+    z-index: -1;
+  }
+  
+  .teamBoxtwo{
+    width: 100%;
+    height: calc(80vh - 50px);
+    /* background-color: blue; */
+    position: relative;
+    background-image: url(team-2.jpeg);
+    background-size:320px;
+    background-repeat: no-repeat;
+    background-position: 40% 10%;
+    overflow: hidden;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+  }
+  .teamBoxtwo .teamcontenttwo{
+    position: absolute;
+    margin-left: 60px;
+    margin-bottom: -170px;
+    z-index: 5;
+    font-size: 20px;
+    font-family: var(--barlow);
+  }
