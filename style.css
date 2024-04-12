@@ -35,3 +35,18 @@
     display: flex;
     gap: 30px;
   }
+  .headercenter nav{
+    font-family: "Barlow", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .navh{
+    color: var(--bb);
+  }
+  .headerright{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+  
+  }
