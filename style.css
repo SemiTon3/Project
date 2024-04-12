@@ -24,3 +24,14 @@
     top:0px;
     z-index: 100;
   }
+  .headercontainer{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .headercenter{
+    display: flex;
+    gap: 30px;
+  }
