@@ -50,3 +50,22 @@
     position: relative;
   
   }
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 200,
+    'GRAD' 25,
+    'opsz' 22;
+  }
+  .cartcircle{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color:var(--bb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 10px;
+    bottom: 27px;
+  }
