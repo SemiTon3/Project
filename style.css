@@ -8,3 +8,19 @@
     font-weight: <weight>;
     font-style: normal; */
   }
+  :root{
+    --bb:#086AD8;
+    --button:#137ADF;
+    --jost: "Jost", sans-serif;
+    --barlow: "Barlow", sans-serif;
+  }
+  .headerwrapper{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    background-color: #ffff;
+    justify-content: center;
+    position: sticky;
+    top:0px;
+    z-index: 100;
+  }
