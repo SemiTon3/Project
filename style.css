@@ -81,3 +81,28 @@
     height: 35px;
     background-color: rgba(0, 0, 0, 0.179);
   }
+  .headerright button{
+    width: 182px;
+    height: 46px;
+    background-color: var(--button);
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    position: relative;
+    transition-duration: 0.3s;
+    z-index: 1;
+  }
+  .headerright button::before{
+    content: "";
+    background-color: #0e0e0e;
+    position: absolute;
+    top: 0;
+    bottom: 50%;
+    left: 0;
+    right: 182px;
+    z-index: -1;
+    transition: 0.3s;
+  }
