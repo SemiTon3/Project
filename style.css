@@ -122,3 +122,22 @@
     z-index: -1;
     transition: 0.3s;
   }
+  .headerright button:hover::after{
+    left: 0;
+    border-radius: 0 0 5px 5px;
+    transition: 1s;
+  }
+  .herocomponent{
+    width: 100%;
+    height: calc(100vh - 150px);
+    /* background-color: blue; */
+    position: relative;
+    background-image: url(page-banner.jpeg);
+    background-size:1900px;
+    background-repeat: no-repeat;
+    background-position: 70% 60%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
